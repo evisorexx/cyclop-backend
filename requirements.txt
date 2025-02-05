@@ -1,0 +1,17 @@
+asgiref==3.6.0
+backports.zoneinfo==0.2.1
+Django==4.1.7
+ffmpeg-python==0.2.0
+future==0.18.3
+gunicorn==20.1.0
+sqlparse==0.4.3
+psycopg2-binary
+djangorestframework
+django-filter
+django-cors-headers
+python-dotenv==1.0.0
+opencv-python
+yt_dlp
+vidgear
+split
+Pillow

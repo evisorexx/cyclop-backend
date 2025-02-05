@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  django_gunicorn:
+    env_file:
+      - .env
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - /var/www/html/media:/app/media
+#        - /media:/app/media
+#    links:
+#      - postgres
+#  postgres:
+#    image: postgres:13.3
+#    env_file:
+#      - ./.env
+#    volumes:
+#      - ./database_data:/var/lib/postgresql/data/pgdata
+#    ports:
+#      - "5432:5432"
+
+
+  
+
